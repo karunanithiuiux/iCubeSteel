@@ -25,61 +25,6 @@
 <!-- contact-us content -->
 <main class="cus-mt-5">
     <!-- banner -->
-    <!-- <section>
-            <div class="container-fluid py-5 position-relative">
-                <div class="swiper mySwiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div>
-                                <img src="assets/services/banner-1.png" class="img-fluid" alt="banner-1">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div>
-                                <img src="assets/services/banner-2.png" class="img-fluid" alt="banner-2">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div>
-                                <img src="assets/services/banner-1.png" class="img-fluid" alt="banner-1">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div>
-                                <img src="assets/services/banner-1.png" class="img-fluid" alt="banner-1">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div>
-                                <img src="assets/services/banner-1.png" class="img-fluid" alt="banner-1">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div>
-                                <img src="assets/services/banner-1.png" class="img-fluid" alt="banner-1">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div>
-                                <img src="assets/services/banner-1.png" class="img-fluid" alt="banner-1">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div>
-                                <img src="assets/services/banner-1.png" class="img-fluid" alt="banner-1">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                </div>
-                <div
-                    class=" col-lg-4 col-10 text-lg-start text-center p-lg-5  position-absolute top-50 cus-ms-8 translate-middle-y z-1">
-                    <h1 class=" text-white opacity-75 bg-dark rounded-3 p-5">We prove our professionalism by actions
-                    </h1>
-                </div>
-            </div>
-        </section> -->
 
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner position-relative">
@@ -105,7 +50,7 @@
             <span class="visually-hidden">Next</span>
         </button>
         <div class="position-absolute d-lg-flex bottom-0 start-0">
-            <h2 class=" text-white bg-light text-blue text-lg-start text-center rounded-top px-5 pt-3 pb-3 mb-0">We prove our professionalism by actions
+            <h2 class=" text-white bg-light text-blue text-lg-start text-center cus-rounded-top px-5 pt-3 pb-3 mb-0">We prove our professionalism by actions
             </h2>
         </div>
         <div class="d-lg-none bottom-0 start-0">

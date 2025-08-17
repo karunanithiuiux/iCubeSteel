@@ -98,6 +98,40 @@ background-size: 10px 10px;
 
 }
 
+/* Sticky Social Bar */
+.social-icons {
+    position: fixed;
+    top: 50%;
+    left: 20px;             /* change to right:20px if you want it on the right */
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+
+.icon-color{
+    --bs-text-opacity: 1;
+    color: #163e64 !important;
+}
+.social-icons a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #e7e7e7;   /* light background */
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.social-icons a:hover {
+    background: #c1c1c1;   /* Bootstrap primary */
+    color: #fff;
+    transform: scale(1.1);
+}
+
+
 .btn-outline-primary {
     --bs-btn-color: #163e64;
     --bs-btn-border-color: #163e64;
@@ -176,6 +210,11 @@ background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
     transform: translateY(-5px) scale(1.02); /* Slight lift & scale */
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Soft shadow */
     border-color: #007bff; /* Optional hover border color */
+}
+
+.cus-rounded-top {
+    /* border-top-left-radius: var(--bs-border-radius) !important; */
+    border-top-right-radius: var(--bs-border-radius) !important;
 }
 
 .card-hover-border {
@@ -309,6 +348,25 @@ ul.country-list {
   font-size: large;    
   margin-left: 5rem !important;
   background: none;
+}
+.we-font {
+    font-size: 100px;
+    font-weight: 800;
+    color: #163e64 !important;
+    font-family: "Bahnschrift", sans-serif !important;
+}
+.line {
+    opacity: 0;
+    transform: translateY(100px);
+    font-size: 14px;
+    transition: all 0.5s ease;
+}
+.social-icons {
+    position: fixed;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+    z-index: 1000;
 }
 
 }

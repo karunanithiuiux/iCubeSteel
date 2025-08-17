@@ -179,11 +179,11 @@
     <!-- we  -->
     <section class="we-section cus-box">
         <div class="container">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-auto sticky-we">
-                    <h1 class="we-font mt-5">WE</h1>
+            <div class="row justify-content-md-center justify-content-between align-items-center">
+                <div class="col-md-auto col-4 sticky-we">
+                    <h1 class="we-font mt-md-5">WE</h1>
                 </div>
-                <div class="col-auto content-lines text-lg-start text-center">
+                <div class="col-md-auto col-6 content-lines text-lg-start text-center">
                     <div class="line">stay curious, always</div>
                     <div class="line">collaborate seamlessly</div>
                     <div class="line">are ready to take-off your Projects</div>

@@ -100,22 +100,30 @@ button:hover~.cursor-outer {
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-center gap-3">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+                            <a class="nav-link <?= basename($_SERVER['PHP_SELF']) == 'index.php' ? 'active text-primary fw-bold' : '' ?>"
+                                aria-current="<?= basename($_SERVER['PHP_SELF']) == 'index.php' ? 'page' : '' ?>"
+                                href="index.php">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.php">About</a>
+                            <a class="nav-link <?= basename($_SERVER['PHP_SELF']) == 'about.php' ? 'active text-primary fw-bold' : '' ?>"
+                                aria-current="<?= basename($_SERVER['PHP_SELF']) == 'about.php' ? 'page' : '' ?>"
+                                href="about.php">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="services.php">Services</a>
+                            <a class="nav-link <?= basename($_SERVER['PHP_SELF']) == 'services.php' ? 'active text-primary fw-bold' : '' ?>"
+                                aria-current="<?= basename($_SERVER['PHP_SELF']) == 'services.php' ? 'page' : '' ?>"
+                                href="services.php">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contactus.php">Contact US</a>
+                            <a class="nav-link <?= basename($_SERVER['PHP_SELF']) == 'contactus.php' ? 'active text-primary fw-bold' : '' ?>"
+                                aria-current="<?= basename($_SERVER['PHP_SELF']) == 'contactus.php' ? 'page' : '' ?>"
+                                href="contactus.php">Contact Us</a>
                         </li>
-            
                     </ul>
+
                 </div>
-                <div class="offcanvas offcanvas-start d-lg-none" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
-                    aria-labelledby="staticBackdropLabel">
+                <div class="offcanvas offcanvas-start d-lg-none" data-bs-backdrop="static" tabindex="-1"
+                    id="staticBackdrop" aria-labelledby="staticBackdropLabel">
                     <div class="offcanvas-header">
                         <h5 class="offcanvas-title" id="staticBackdropLabel">icubesteel</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -123,30 +131,39 @@ button:hover~.cursor-outer {
                     <div class="offcanvas-body">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-center gap-3">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+                                <a class="nav-link <?= basename($_SERVER['PHP_SELF']) == 'index.php' ? 'active text-primary fw-bold' : '' ?>"
+                                    aria-current="<?= basename($_SERVER['PHP_SELF']) == 'index.php' ? 'page' : '' ?>"
+                                    href="index.php">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="about.php">About</a>
+                                <a class="nav-link <?= basename($_SERVER['PHP_SELF']) == 'about.php' ? 'active text-primary fw-bold' : '' ?>"
+                                    aria-current="<?= basename($_SERVER['PHP_SELF']) == 'about.php' ? 'page' : '' ?>"
+                                    href="about.php">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="services.php">Services</a>
+                                <a class="nav-link <?= basename($_SERVER['PHP_SELF']) == 'services.php' ? 'active text-primary fw-bold' : '' ?>"
+                                    aria-current="<?= basename($_SERVER['PHP_SELF']) == 'services.php' ? 'page' : '' ?>"
+                                    href="services.php">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contactus.php">Contact US</a>
+                                <a class="nav-link <?= basename($_SERVER['PHP_SELF']) == 'contactus.php' ? 'active text-primary fw-bold' : '' ?>"
+                                    aria-current="<?= basename($_SERVER['PHP_SELF']) == 'contactus.php' ? 'page' : '' ?>"
+                                    href="contactus.php">Contact US</a>
                             </li>
                             <li class="nav-item d-lg-none d-flex">
                                 <button type="button" class="btn btn-light rounded-pill px-3 py-1">Get In
                                     Quotes</button>
                             </li>
                         </ul>
+
                     </div>
                 </div>
                 <div class="d-lg-flex d-none">
                     <!-- <button type="button" class="btn btn-dark rounded-pill px-4 py-2">Get In Quotes</button> -->
                     <!-- <button type="button" class="btn btn-outline-primary">Get In Quotes</button> -->
-<a href="contactus.php" class="btn btn-outline-primary rounded-2 px-3 py-2">
-    Get In Quotes
-</a>
+                    <a href="contactus.php" class="btn btn-outline-primary rounded-2 px-3 py-2">
+                        Get In Quotes
+                    </a>
 
                 </div>
             </div>
@@ -154,6 +171,32 @@ button:hover~.cursor-outer {
     </div>
 
 
+    <!-- Sticky Social Media -->
+    <div class="social-icons">
+        <ul class="list-unstyled d-flex flex-column">
+            <li class="mb-3">
+                <a href="https://www.facebook.com/icubesteel" target="_blank" class="text-decoration-none text-dark">
+                    <i class="bi bi-facebook fs-3 icon-color"></i>
+                </a>
+            </li>
+            <li class="mb-3">
+                <a href="https://www.instagram.com/icubesteel/" target="_blank" class="text-decoration-none text-dark">
+                    <i class="bi bi-instagram fs-3 icon-color"></i>
+                </a>
+            </li>
+            <li class="mb-3">
+                <a href="https://www.linkedin.com/company/icubesteel/" target="_blank"
+                    class="text-decoration-none text-dark">
+                    <i class="bi bi-linkedin fs-3 icon-color"></i>
+                </a>
+            </li>
+            <li class="mb-3">
+                <a href="https://twitter.com/icubesteel" target="_blank" class="text-decoration-none text-dark">
+                    <i class="bi bi-skype fs-3 icon-color"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
 
 
 </body>
